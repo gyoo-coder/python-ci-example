@@ -1,8 +1,8 @@
-def hello(  ) :
-    print("Hello World")
+def hello():
+    return "Hello World!"
 
 
+if __name__ == "__main__":
+    ret = hello()
 
-if __name__=="__main__":
-    hello()
     print(ret)
